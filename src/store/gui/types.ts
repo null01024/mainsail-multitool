@@ -181,6 +181,9 @@ export interface GuiState {
             countPerPage: number
         }
         lockedSliders: string[]
+        toolchanger: {
+            toolOrderDirection: 'left-to-right' | 'right-to-left'
+        }
         tempchart: {
             boolTempchart: boolean
             hiddenDataset: string[]

@@ -119,6 +119,7 @@ export const allDashboardPanels = [
     'miscellaneous',
     'spoolman',
     'mmu',
+    'toolchanger',
     'temperature',
     'webcam',
 ]

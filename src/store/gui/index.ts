@@ -277,6 +277,9 @@ export const getDefaultState = (): GuiState => {
                 countPerPage: 10,
             },
             lockedSliders: [],
+            toolchanger: {
+                toolOrderDirection: 'left-to-right',
+            },
             mmu: {
                 showClogDetection: true,
                 showTtgMap: true,
