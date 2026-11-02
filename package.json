@@ -22,7 +22,7 @@
         "start": "vite build && vite preview",
         "test": "start-server-and-test preview http://127.0.0.1:4173/ 'cypress run'",
         "test:ui": "cypress open",
-        "test:unit": "vitest run",
+        "test:unit": "node --test tests/release/*.test.mjs && vitest run",
         "changelog": "git cliff v0.0.4..$(git describe --tags $(git rev-list --tags --max-count=1)) --output CHANGELOG.md"
     },
     "dependencies": {

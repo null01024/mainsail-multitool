@@ -38,7 +38,7 @@ export default defineConfigWithVueTs(
     },
 
     {
-        files: ['scripts/**/*.js'],
+        files: ['scripts/**/*.js', 'tests/release/**/*.mjs'],
         languageOptions: {
             globals: globals.node,
         },

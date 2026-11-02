@@ -43,13 +43,13 @@ footer = """
 
 # postprocessors
 postprocessors = [
-    { pattern = '<REPO>', replace = "https://github.com/mainsail-crew/mainsail" }, # replace repository URL
+    { pattern = '<REPO>', replace = "https://github.com/null01024/mainsail-multitool" }, # replace repository URL
 ]
 
 
 [remote.github]
-owner = "mainsail-crew"
-repo = "mainsail"
+owner = "null01024"
+repo = "mainsail-multitool"
 
 [git]
 # allow only conventional commits
